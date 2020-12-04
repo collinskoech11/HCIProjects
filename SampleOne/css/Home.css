@@ -1,14 +1,17 @@
 .home-container{
-    width: 100%;
+    width: 80%;
     height: 500px;
-    border: 1px solid black;
     display: block;
     font-size: 24px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left:10%;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-right: 10%;
     text-align: center;
     align-items: center;
     justify-content: center;
+    background-color: rgb(0,0,0,0.2);
+    border-radius: 10px;
 }
 .home-container .home-title{
     text-transform: uppercase;
@@ -24,16 +27,14 @@
 }
 .home-container .home-body .home-image{
     width: 30%;
-    height: 250px;
-    border: 1px solid white;
+    height: 350px;    
     float:left;
 }
 .home-container .home-body .home-text{
     float: left;
     margin-left: 10%;
-    height: 300px;
+    height: 400px;
     width: 50%;
-    border: 1px solid white;
 }
 .home-container .home-body .home-image img{
     width: 100%;
