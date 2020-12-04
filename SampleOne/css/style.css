@@ -21,16 +21,17 @@ body{
     color: #fff;
     text-transform: uppercase;
     float: left;
-    width:20%;
+    width:23%;
     padding-left: 30px;
-    margin-right: 15%;
+    margin-right: 25%;
 }
 .navbar .btn-container{
     float: left;
-    width: 60%;
+    width: 50%;
+    
 }
 .navbar .btn-container button{
-    width: 100px;
+    width: 18%;
     height: 40px;
     background-color: rgb(100,0,100,0.4);
     color: #fff;
@@ -38,6 +39,7 @@ body{
     border-radius: 5px;
     margin-right: 10px;
     border: none;
+    text-transform: uppercase;
 }
 .navbar button:hover{
     cursor: pointer;
