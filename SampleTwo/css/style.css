@@ -34,7 +34,18 @@
     width: 30px;
     height: 30px;
 }
-
+.content .t1{
+    display: block;
+}
+.content .t2{
+    display: none;
+}
+.kiswahili .t1{
+    display: none;
+}
+.kiswahili .t2{
+    display: block;
+}
 .bod{
     width: 100%;
     height: auto;
