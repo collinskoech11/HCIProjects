@@ -22,9 +22,14 @@
     float: right;
     margin-top: -30px;
     margin-right: 40px;
+    border-radius: 5px;
+}
+.navbar .button button{
+    background-color:transparent;
+    border: none;
 }
 .navbar .button img{
-    box-shadow:yellow;
+    box-shadow:5px 10px 10px yellow;
     width: 30px;
     height: 30px;
 }
@@ -42,6 +47,11 @@
     border-radius: 20px;
     padding: 20px;
     display: inline-block;
+}
+@media screen and (max-width:900px){
+    .calc{
+        height: auto;
+    }
 }
 .dark .calc{
     border: 1px solid #fff;
