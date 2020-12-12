@@ -26,7 +26,7 @@
 }
 .calc{
     width: 100%;
-    height: 500px;
+    height: 350px;
     border: 1px solid rgb(0,0,0);
     border-radius: 20px;
     padding: 20px;
@@ -35,8 +35,32 @@
 .calc .calc-sect{
     float: left;
     width: 50%;
+    height: 100%;
 }
 .calc .calc-sect .ks,.dl{
     width: 100%;
     height: auto;
+    margin-top: 20px;
+}
+.calc .calc-sect .input{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+.calc .calc-sect .input input{
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    height: 50px;
+}
+.calc .calc-sect .graph{
+    width: 90%;
+    height: 90%;
+}
+.calc .calc-sect .graph img{
+    width: 90%;
+    height: 100%;
 }
