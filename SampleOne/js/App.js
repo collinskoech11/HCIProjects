@@ -39,3 +39,8 @@ function(){
     document.querySelector('.ServicesCon').style.display = 'none';
     document.querySelector('.PortfolioCon').style.display = 'block';
 })
+document.getElementById('Language').addEventListener('click',
+function(){
+    document.querySelector('.HomeConFrench').style.display = 'block';
+    document.querySelector('.HomeCon').style.display = 'none';
+})
