@@ -48,7 +48,9 @@ document.getElementById('Language').addEventListener('click',
 function(){
     var homeFrench = document.querySelector(".homeFrench");
     homeFrench.classList.toggle("show");
-    var resumeFrench = document.querySelector(".resumeFrench");
+})
+/**
+ var resumeFrench = document.querySelector(".resumeFrench");
     resumeFrench.classList.toggle("show");
     var portfolioFrench = document.querySelector(".portfolioFrench");
     portfolioFrench.classList.toggle("show");
@@ -56,12 +58,14 @@ function(){
     contactFrench.classList.toggle("show");
     var servicesFrench = document.querySelector(".servicesFrench");
     servicesFrench.classList.toggle("show");
-})
+ **/
 document.getElementById('Language').addEventListener('click',
 function(){
-    var homeFrench = document.querySelector(".homeFrench");
-    homeFrench.classList.toggle("hide");
-    var resumeFrench = document.querySelector(".resumeFrench");
+    var homeEnglish = document.querySelector(".homeEnglish");
+    homeEnglish.classList.toggle("hide");
+})
+/**
+  var resumeFrench = document.querySelector(".resumeFrench");
     resumeFrench.classList.toggle("hide");
     var portfolioFrench = document.querySelector(".portfolioFrench");
     portfolioFrench.classList.toggle("hide");
@@ -69,4 +73,4 @@ function(){
     contactFrench.classList.toggle("hide");
     var servicesFrench = document.querySelector(".servicesFrench");
     servicesFrench.classList.toggle("hide");
-})
+ **/
