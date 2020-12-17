@@ -48,6 +48,16 @@ document.getElementById('Language').addEventListener('click',
 function(){
     var homeFrench = document.querySelector(".homeFrench");
     homeFrench.classList.toggle("show");
+    var resumeFrench = document.querySelector(".resumeFrench");
+    resumeFrench.classList.toggle("show");
+})
+
+document.getElementById('Language').addEventListener('click',
+function(){
+    var homeEnglish = document.querySelector(".homeEnglish");
+    homeEnglish.classList.toggle("hide");
+    var resumeEnglish = document.querySelector(".resumeEnglish");
+    resumeEnglish.classList.toggle("hide");
 })
 /**
  var resumeFrench = document.querySelector(".resumeFrench");
@@ -59,11 +69,6 @@ function(){
     var servicesFrench = document.querySelector(".servicesFrench");
     servicesFrench.classList.toggle("show");
  **/
-document.getElementById('Language').addEventListener('click',
-function(){
-    var homeEnglish = document.querySelector(".homeEnglish");
-    homeEnglish.classList.toggle("hide");
-})
 /**
   var resumeFrench = document.querySelector(".resumeFrench");
     resumeFrench.classList.toggle("hide");
