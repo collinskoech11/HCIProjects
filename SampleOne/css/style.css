@@ -19,7 +19,7 @@ body{
     background-repeat: no-repeat;
     }
 .container-dark{
-    background-image: url();
+    background-image: url('../img/bg2.jpg');
     color: black;
 }
 .navbar{
@@ -37,15 +37,15 @@ body{
     float: left;
     width:23%;
     padding-left: 30px;
-    margin-right: 25%;
+    margin-right: 0;
 }
 .navbar .btn-container{
     float: left;
-    width: 50%;
+    width: 70%;
     
 }
 .navbar .btn-container button{
-    width: 18%;
+    width: 12%;
     height: 40px;
     background-color: transparent;
     color: #fff;
