@@ -7,13 +7,12 @@ document.getElementById("mode").addEventListener('click',
 //toggle English language 
 document.getElementById('Language').addEventListener('click',
 function(){
-    var homeFrench = document.querySelector(".contentKiswahili");
-    homeFrench.classList.toggle("show");
+    var contentKiswahili = document.querySelector(".contentKiswahili");
+    contentKiswahili.classList.toggle("show");
 });
 //toggle French Language
 document.getElementById('Language').addEventListener('click',
 function(){
-    var homeEnglish = document.querySelector(".contentKiswahili");
-    homeEnglish.classList.toggle("hide");
-    
+    var contentEnglish = document.querySelector(".contentEnglish");
+    contentEnglish.classList.toggle("hide");
 });
