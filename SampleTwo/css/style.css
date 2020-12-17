@@ -18,6 +18,15 @@
     background-color: black;
     color: #fff;
 }
+.contentKiswahili{
+    display: none;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
 .dark{
     background-color: black;
     color: #fff;
