@@ -4,3 +4,9 @@
 .french{
     display: none;
 }
+.container-dark .navbar{
+    background-color: rgb(0,0,0,0.5);
+}
+.container-dark .{
+    background-color: rgb(0,0,0,0.5)
+}
