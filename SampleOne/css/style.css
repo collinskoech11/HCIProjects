@@ -80,10 +80,10 @@ body{
     transition:2s;
     color: #fff;
 }
-.homeEnglish,.resumeEnglish,.servicesEnglish,.portfolioEnglish,.contactEnglish{
+.homeEnglish,.resumeEnglish,.servicesEnglish,.portfolioEnglish,.contactEnglish,.footerEnglish{
     display: block;
 }
-.homeFrench,.resumeFrench,.servicesFrench,.portfolioFrench,.contactFrench{
+.homeFrench,.resumeFrench,.servicesFrench,.portfolioFrench,.contactFrench,.footerFrench{
     display: none;
 }
 .show{

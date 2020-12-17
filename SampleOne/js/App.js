@@ -43,7 +43,7 @@ function(){
     document.querySelector('.ServicesCon').style.display = 'none';
     document.querySelector('.PortfolioCon').style.display = 'block';
 })
-//Languages toggle betwen English and french
+//toggle English language 
 document.getElementById('Language').addEventListener('click',
 function(){
     var homeFrench = document.querySelector(".homeFrench");
@@ -56,8 +56,10 @@ function(){
     contactFrench.classList.toggle("show");
     var servicesFrench = document.querySelector(".servicesFrench");
     servicesFrench.classList.toggle("show");
+    var footerFrench = document.querySelector(".footerFrench");
+    footerFrench.classList.toggle("show");
 });
-
+//toggle French Language
 document.getElementById('Language').addEventListener('click',
 function(){
     var homeEnglish = document.querySelector(".homeEnglish");
@@ -70,4 +72,6 @@ function(){
     contactEnglish.classList.toggle("hide");
     var servicesEnglish = document.querySelector(".servicesEnglish");
     servicesEnglish.classList.toggle("hide");
+    var footerEnglish = document.querySelector(".footerEnglish");
+    footerEnglish.classList.toggle("hide");
 });
