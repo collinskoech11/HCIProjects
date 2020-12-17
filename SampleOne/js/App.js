@@ -4,7 +4,6 @@ document.getElementById('Home').addEventListener('click',
         document.querySelector('.HomeCon').style.display = 'block';
         document.querySelector('.ContactCon').style.display = 'none';
         document.querySelector('.ResumeCon').style.display = 'none';
-        document.querySelector('.ServicesCon').style.display = 'none';
         document.querySelector('.PortfolioCon').style.display = 'none';
     })
 //toggle contact page
@@ -13,7 +12,6 @@ document.getElementById('Contact').addEventListener('click',
         document.querySelector('.HomeCon').style.display = 'none';
         document.querySelector('.ContactCon').style.display = 'block';
         document.querySelector('.ResumeCon').style.display = 'none';
-        document.querySelector('.ServicesCon').style.display = 'none';
         document.querySelector('.PortfolioCon').style.display = 'none';
     })
 //toggle resume page
@@ -22,16 +20,6 @@ function(){
     document.querySelector('.HomeCon').style.display = 'none';
     document.querySelector('.ContactCon').style.display = 'none';
     document.querySelector('.ResumeCon').style.display = 'block';
-    document.querySelector('.ServicesCon').style.display = 'none';
-    document.querySelector('.PortfolioCon').style.display = 'none';
-})
-//toggle services page
-document.getElementById('Services').addEventListener('click',
-function(){
-    document.querySelector('.HomeCon').style.display = 'none';
-    document.querySelector('.ContactCon').style.display = 'none';
-    document.querySelector('.ResumeCon').style.display = 'none';
-    document.querySelector('.ServicesCon').style.display = 'block';
     document.querySelector('.PortfolioCon').style.display = 'none';
 })
 //toggle portfolio page
@@ -40,11 +28,10 @@ function(){
     document.querySelector('.HomeCon').style.display = 'none';
     document.querySelector('.ContactCon').style.display = 'none';
     document.querySelector('.ResumeCon').style.display = 'none';
-    document.querySelector('.ServicesCon').style.display = 'none';
     document.querySelector('.PortfolioCon').style.display = 'block';
 })
 //toggle English language 
-document.getElementById('Language').addEventListener('click',
+document.getElementById('lan').addEventListener('click',
 function(){
     var homeFrench = document.querySelector(".homeFrench");
     homeFrench.classList.toggle("show");
@@ -54,13 +41,10 @@ function(){
     portfolioFrench.classList.toggle("show");
     var contactFrench = document.querySelector(".contactFrench");
     contactFrench.classList.toggle("show");
-    var servicesFrench = document.querySelector(".servicesFrench");
-    servicesFrench.classList.toggle("show");
-    var footerFrench = document.querySelector(".footerFrench");
-    footerFrench.classList.toggle("show");
-});
+    
+})
 //toggle French Language
-document.getElementById('Language').addEventListener('click',
+document.getElementById('lan').addEventListener('click',
 function(){
     var homeEnglish = document.querySelector(".homeEnglish");
     homeEnglish.classList.toggle("hide");
@@ -70,8 +54,4 @@ function(){
     portfolioEnglish.classList.toggle("hide");
     var contactEnglish = document.querySelector(".contactEnglish");
     contactEnglish.classList.toggle("hide");
-    var servicesEnglish = document.querySelector(".servicesEnglish");
-    servicesEnglish.classList.toggle("hide");
-    var footerEnglish = document.querySelector(".footerEnglish");
-    footerEnglish.classList.toggle("hide");
-});
+})
