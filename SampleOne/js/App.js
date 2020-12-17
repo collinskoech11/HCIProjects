@@ -56,7 +56,7 @@ function(){
     contactFrench.classList.toggle("show");
     var servicesFrench = document.querySelector(".servicesFrench");
     servicesFrench.classList.toggle("show");
-})
+});
 
 document.getElementById('Language').addEventListener('click',
 function(){
@@ -70,20 +70,4 @@ function(){
     contactEnglish.classList.toggle("hide");
     var servicesEnglish = document.querySelector(".servicesEnglish");
     servicesEnglish.classList.toggle("hide");
-})
-/**
-    var portfolioFrench = document.querySelector(".portfolioFrench");
-    portfolioFrench.classList.toggle("show");
-    var contactFrench = document.querySelector(".contactFrench");
-    contactFrench.classList.toggle("show");
-    var servicesFrench = document.querySelector(".servicesFrench");
-    servicesFrench.classList.toggle("show");
- **/
-/**
-    var portfolioFrench = document.querySelector(".portfolioFrench");
-    portfolioFrench.classList.toggle("hide");
-    var contactFrench = document.querySelector(".contactFrench");
-    contactFrench.classList.toggle("hide");
-    var servicesFrench = document.querySelector(".servicesFrench");
-    servicesFrench.classList.toggle("hide");
- **/
+});
