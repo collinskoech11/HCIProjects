@@ -41,11 +41,19 @@ function(){
 })
 document.getElementById('Language').addEventListener('click',
 function(){
-    var French = document.querySelector(".homeFrench");
-    French.classList.toggle("show");
+    var homeFrench = document.querySelector(".homeFrench");
+    homeFrench.classList.toggle("show");
+    var resumeFrench = document.querySelector(".resumeFrench");
+    resumeFrench.classList.toggle("show");
+    var portfolioFrench = document.querySelector(".portfolioFrench");
+    portfolioFrench.classList.toggle("show");
+    var contactFrench = document.querySelector(".contactFrench");
+    contactFrench.classList.toggle("show");
+    var servicesFrench = document.querySelector(".servicesFrench");
+    servicesFrench.classList.toggle("show");
 })
 document.getElementById('Language').addEventListener('click',
 function(){
-    var French = document.querySelector(".homeEnglish");
-    French.classList.toggle("hide");
+    var homeFrench = document.querySelector(".homeEnglish");
+    homeFrench.classList.toggle("hide");
 })
