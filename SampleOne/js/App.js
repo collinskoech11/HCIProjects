@@ -50,6 +50,12 @@ function(){
     homeFrench.classList.toggle("show");
     var resumeFrench = document.querySelector(".resumeFrench");
     resumeFrench.classList.toggle("show");
+    var portfolioFrench = document.querySelector(".portfolioFrench");
+    portfolioFrench.classList.toggle("show");
+    var contactFrench = document.querySelector(".contactFrench");
+    contactFrench.classList.toggle("show");
+    var servicesFrench = document.querySelector(".servicesFrench");
+    servicesFrench.classList.toggle("show");
 })
 
 document.getElementById('Language').addEventListener('click',
@@ -58,10 +64,14 @@ function(){
     homeEnglish.classList.toggle("hide");
     var resumeEnglish = document.querySelector(".resumeEnglish");
     resumeEnglish.classList.toggle("hide");
+    var portfolioEnglish = document.querySelector(".portfolioEnglish");
+    portfolioEnglish.classList.toggle("hide");
+    var contactEnglish = document.querySelector(".contactEnglish");
+    contactEnglish.classList.toggle("hide");
+    var servicesEnglish = document.querySelector(".servicesEnglish");
+    servicesEnglish.classList.toggle("hide");
 })
 /**
- var resumeFrench = document.querySelector(".resumeFrench");
-    resumeFrench.classList.toggle("show");
     var portfolioFrench = document.querySelector(".portfolioFrench");
     portfolioFrench.classList.toggle("show");
     var contactFrench = document.querySelector(".contactFrench");
@@ -70,8 +80,6 @@ function(){
     servicesFrench.classList.toggle("show");
  **/
 /**
-  var resumeFrench = document.querySelector(".resumeFrench");
-    resumeFrench.classList.toggle("hide");
     var portfolioFrench = document.querySelector(".portfolioFrench");
     portfolioFrench.classList.toggle("hide");
     var contactFrench = document.querySelector(".contactFrench");
