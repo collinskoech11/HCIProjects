@@ -1,4 +1,4 @@
-/**REsume Services Portfolio */
+//toggle home page 
 document.getElementById('Home').addEventListener('click',
     function() {
         document.querySelector('.HomeCon').style.display = 'block';
@@ -7,6 +7,7 @@ document.getElementById('Home').addEventListener('click',
         document.querySelector('.ServicesCon').style.display = 'none';
         document.querySelector('.PortfolioCon').style.display = 'none';
     })
+//toggle contact page
 document.getElementById('Contact').addEventListener('click',
     function(){
         document.querySelector('.HomeCon').style.display = 'none';
@@ -15,6 +16,7 @@ document.getElementById('Contact').addEventListener('click',
         document.querySelector('.ServicesCon').style.display = 'none';
         document.querySelector('.PortfolioCon').style.display = 'none';
     })
+//toggle resume page
 document.getElementById('Resume').addEventListener('click',
 function(){
     document.querySelector('.HomeCon').style.display = 'none';
@@ -23,6 +25,7 @@ function(){
     document.querySelector('.ServicesCon').style.display = 'none';
     document.querySelector('.PortfolioCon').style.display = 'none';
 })
+//toggle services page
 document.getElementById('Services').addEventListener('click',
 function(){
     document.querySelector('.HomeCon').style.display = 'none';
@@ -31,6 +34,7 @@ function(){
     document.querySelector('.ServicesCon').style.display = 'block';
     document.querySelector('.PortfolioCon').style.display = 'none';
 })
+//toggle portfolio page
 document.getElementById('Portfolio').addEventListener('click',
 function(){
     document.querySelector('.HomeCon').style.display = 'none';
@@ -39,6 +43,7 @@ function(){
     document.querySelector('.ServicesCon').style.display = 'none';
     document.querySelector('.PortfolioCon').style.display = 'block';
 })
+//Languages toggle betwen English and french
 document.getElementById('Language').addEventListener('click',
 function(){
     var homeFrench = document.querySelector(".homeFrench");
