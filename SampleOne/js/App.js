@@ -54,6 +54,14 @@ function(){
 })
 document.getElementById('Language').addEventListener('click',
 function(){
-    var homeFrench = document.querySelector(".homeEnglish");
+    var homeFrench = document.querySelector(".homeFrench");
     homeFrench.classList.toggle("hide");
+    var resumeFrench = document.querySelector(".resumeFrench");
+    resumeFrench.classList.toggle("hide");
+    var portfolioFrench = document.querySelector(".portfolioFrench");
+    portfolioFrench.classList.toggle("hide");
+    var contactFrench = document.querySelector(".contactFrench");
+    contactFrench.classList.toggle("hide");
+    var servicesFrench = document.querySelector(".servicesFrench");
+    servicesFrench.classList.toggle("hide");
 })
