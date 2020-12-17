@@ -1,6 +1,6 @@
 .home-container{
     width: 80%;
-    height:150%;
+    height:auto;
     display: block;
     font-size: 24px;
     margin-left:10%;
@@ -34,7 +34,8 @@
 .home-container .home-body .home-text{
     float: left;
     margin-left: 10%;
-    height: 450px;
+    height: auto;
+    min-height:450px;
     width: 50%;
 }
 .home-container .home-body .home-image img{
@@ -42,7 +43,7 @@
     height: 100%;
 }
 .home-container .home-body .home-text .home-text-title{
-    widows: 100%;
+    width: 100%;
 }
 .details{
     width: 100%;
