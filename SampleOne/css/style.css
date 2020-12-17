@@ -18,18 +18,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     }
-    .french{
-        display: block;
-    }
-    .french .t-one{
-        display: none;
-    }
-    .french .t-two{
-        display: block;
-    }
-    .t-two{
-        display: none;
-    }
+    
 .navbar{
     position:fixed;
     width: 100%;
@@ -88,10 +77,10 @@ body{
     transition:2s;
     color: #fff;
 }
-.homeEnglish{
+.homeEnglish,.resumeEnglish,.servicesEnglish,.portfolioEnglish,.contactEnglish{
     display: block;
 }
-.homeFrench{
+.homeFrench,.resumeFrench,.servicesFrench,.portfolioFrench,.contactFrench{
     display: none;
 }
 .show{
