@@ -88,6 +88,12 @@ body{
     transition:2s;
     color: #fff;
 }
+.homeEnglish{
+    display: block;
+}
+.homeFrench{
+    display: none;
+}
 .AboutCon,.ContactCon,.ResumeCon,.PortfolioCon,.ServicesCon{
     display:none;
     width: 100%;
