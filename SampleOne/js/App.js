@@ -41,6 +41,6 @@ function(){
 })
 document.getElementById('Language').addEventListener('click',
 function(){
-    document.querySelector('.HomeConFrench').style.display = 'block';
-    document.querySelector('.HomeCon').style.display = 'none';
+    document.querySelector('.HomeFrench').style.display = 'block';
+    document.querySelector('.HomeEnglish').style.display = 'none';
 })
