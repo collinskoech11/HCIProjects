@@ -55,3 +55,8 @@ function(){
     var contactEnglish = document.querySelector(".contactEnglish");
     contactEnglish.classList.toggle("hide");
 })
+document.getElementById('dark').addEventListener('click',
+function(){
+    var dark = document.querySelector(".container");
+    dark.classList.toggle('container-dark');
+})
