@@ -18,6 +18,10 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     }
+.container-dark{
+    background-image: url();
+    color: black;
+}
 .navbar{
     position:fixed;
     width: 100%;
@@ -75,6 +79,18 @@ body{
     padding-bottom: 50px;
     transition:2s;
     color: #fff;
+}
+.homeEnglish,.resumeEnglish,.servicesEnglish,.portfolioEnglish,.contactEnglish,.footerEnglish{
+    display: block;
+}
+.homeFrench,.resumeFrench,.servicesFrench,.portfolioFrench,.contactFrench,.footerFrench{
+    display: none;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
 }
 .AboutCon,.ContactCon,.ResumeCon,.PortfolioCon,.ServicesCon{
     display:none;
