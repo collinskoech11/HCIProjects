@@ -7,6 +7,17 @@
     background-color: #fff;
     color: black;
 }
+.btn{
+    position: absolute;
+    z-index: 1000;
+}
+.btn button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: #fff;
+}
 .dark{
     background-color: black;
     color: #fff;
