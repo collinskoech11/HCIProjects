@@ -94,6 +94,12 @@ body{
 .homeFrench{
     display: none;
 }
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
 .AboutCon,.ContactCon,.ResumeCon,.PortfolioCon,.ServicesCon{
     display:none;
     width: 100%;

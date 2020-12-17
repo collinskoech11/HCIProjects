@@ -41,6 +41,11 @@ function(){
 })
 document.getElementById('Language').addEventListener('click',
 function(){
-    document.querySelector('.HomeFrench').style.display = 'block';
-    document.querySelector('.HomeEnglish').style.display = 'none';
+    var French = document.querySelector(".homeFrench");
+    French.classList.toggle("show");
+})
+document.getElementById('Language').addEventListener('click',
+function(){
+    var French = document.querySelector(".homeEnglish");
+    French.classList.toggle("hide");
 })
