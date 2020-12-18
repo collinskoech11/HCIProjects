@@ -60,3 +60,8 @@ function(){
     var dark = document.querySelector(".container");
     dark.classList.toggle('container-dark');
 })
+window.onload=function(){setTimeout(showPopup,3000)};
+	function showPopup(){
+		const pop = document.querySelector('.popup');
+		pop.classList.toggle("popupup");
+	};

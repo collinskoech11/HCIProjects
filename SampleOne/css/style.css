@@ -106,9 +106,13 @@ body{
 }
 .popup{
     position: absolute;
-    left: 35%;
+    left: 32.5%;
     top: 35%;
-    width: 300px;
+    width: 600px;
     height: 300px;
     border: 1px solid black;
+    display: none;
+}
+.popupup{
+    display: block;
 }
