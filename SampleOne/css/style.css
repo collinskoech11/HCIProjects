@@ -123,6 +123,9 @@ body{
     font-weight: bolder;
     font-size: 30px;
     color: black;
+    text-align:left;
+    align-items:left;
+    justify-content: left;
 }
 .popup h1{
     color: rgba(118, 118, 163, 0.5);
