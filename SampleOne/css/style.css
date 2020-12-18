@@ -119,7 +119,7 @@ body{
     align-items: center;
 }
 .popup h1{
-    color: #fff;
+    color: rgb(0, 0, 150,0.5);
     font-weight: bold;
 }
 .popupup{
