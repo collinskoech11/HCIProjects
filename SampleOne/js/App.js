@@ -64,4 +64,8 @@ window.onload=function(){setTimeout(showPopup,5000)};
 	function showPopup(){
 		const pop = document.querySelector('.popup');
 		pop.classList.toggle("popupup");
-	};
+    };
+document.getElementById('close').addEventListener('click',
+function(){
+    document.querySelector('.popup').style.display = "none";
+})

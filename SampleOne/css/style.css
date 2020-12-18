@@ -118,6 +118,12 @@ body{
     justify-content: center;
     align-items: center;
 }
+.popup #close{
+    transform: translateX(45deg);
+    font-weight: bolder;
+    font-size: 30px;
+    color: #fff;
+}
 .popup h1{
     color: rgb(0, 0, 150,0.5);
     font-weight: bold;
