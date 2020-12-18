@@ -119,10 +119,10 @@ body{
     align-items: center;
 }
 .popup #close{
-    transform: translateX(45deg);
+    rotate: 45deg;
     font-weight: bolder;
     font-size: 30px;
-    color: #fff;
+    color: black;
 }
 .popup h1{
     color: rgb(0, 0, 150,0.5);
