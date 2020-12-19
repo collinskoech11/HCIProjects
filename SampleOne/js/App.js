@@ -47,11 +47,11 @@ function(){
 document.getElementById('lan').addEventListener('click',
 function(){
     var homeEnglish = document.querySelector(".homeEnglish");
-    homeEnglish.classList.toggle("hide");
+    homeEnglish.classList.toggle("hide",behaviour="smooth");
     var resumeEnglish = document.querySelector(".resumeEnglish");
-    resumeEnglish.classList.toggle("hide");
+    resumeEnglish.classList.toggle("hide",behaviour="smooth");
     var portfolioEnglish = document.querySelector(".portfolioEnglish");
-    portfolioEnglish.classList.toggle("hide");
+    portfolioEnglish.classList.toggle("hide",behaviour="smooth");
     var contactEnglish = document.querySelector(".contactEnglish");
     contactEnglish.classList.toggle("hide");
 })
