@@ -16,3 +16,14 @@ function(){
     var contentEnglish = document.querySelector(".contentEnglish");
     contentEnglish.classList.toggle("hide");
 });
+//display features
+document.getElementById('btnSuper').addEventListener('click',
+    function(){
+        var btn = document.querySelector(".btn");
+        btn.style.display ="block";
+    })
+    document.getElementById('btnSuper').addEventListener('click',
+    function(){
+        var bto = document.querySelector("#btnSuper");
+        btn.style.display ="none";
+    })
