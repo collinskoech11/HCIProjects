@@ -27,3 +27,6 @@ document.getElementById('btnSuper').addEventListener('click',
         var bto = document.querySelector("#btnSuper");
         btn.style.display ="none";
     })
+
+
+    
