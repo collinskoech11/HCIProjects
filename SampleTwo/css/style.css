@@ -236,7 +236,7 @@ h1{
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color:#ddd;
   }
   
   .dropdown-content {
