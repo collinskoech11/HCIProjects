@@ -1,3 +1,7 @@
 .Kiswahilicontent{
     display: none;
 }
+.dark{
+    background-color: black;
+    color: #fff;
+}
