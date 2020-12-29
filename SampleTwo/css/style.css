@@ -297,3 +297,13 @@ h1{
       text-align: left;
     }
   }
+
+  /*text-to-speech button*/
+  button {
+    padding:10px;
+    background-color:#6a67ce;
+    color: #FFFFFF;
+    border: 0px;
+    cursor:pointer;
+    border-radius: 5px;
+}
