@@ -11,10 +11,10 @@ function(){
     contentKiswahili.classList.toggle("show");
 });
 //toggle engish Language
-document.getElementById('english').addEventListener('click',
+document.getElementById('swahili').addEventListener('click',
 function(){
     var contentEnglish = document.querySelector(".contentEnglish");
-    contentEnglish.classList.toggle("show");
+    contentEnglish.classList.toggle("hide");
 });
 //display features
 document.getElementById('btnSuper').addEventListener('click',
