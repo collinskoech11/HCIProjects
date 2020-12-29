@@ -4,6 +4,12 @@ document.getElementById("mode").addEventListener('click',
         container.classList.toggle('dark');
     })
 
+    document.getElementById("light").addEventListener('click',
+    function(){
+        var container = document.querySelector(".container");
+        container.classList.toggle('original');
+    })
+
  //toggle english language
  document.getElementById('englisho').addEventListener('click',
 function(){
