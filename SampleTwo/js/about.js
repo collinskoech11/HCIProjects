@@ -24,3 +24,12 @@ document.getElementById('languageKo').addEventListener('click',
         var eng = document.querySelector('.Englishcontent');
         eng.style.display= 'block';
     })
+
+
+//toggle dark mode
+
+document.getElementById('Dmode').addEventListener('click',
+    function(){
+        var con = document.querySelector('.modeCon');
+        con.classList.toggle('dark');
+    })
