@@ -1,10 +1,10 @@
-document.getElementById("mode").addEventListener('click',
+document.getElementById("darkmode").addEventListener('click',
     function(){
         var container = document.querySelector(".container");
         container.classList.toggle('dark');
     })
 
-    document.getElementById("light").addEventListener('click',
+    document.getElementById("lightmode").addEventListener('click',
     function(){
         var container = document.querySelector(".container");
         container.classList.toggle('original');
