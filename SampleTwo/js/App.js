@@ -5,7 +5,7 @@ document.getElementById("darkmode").addEventListener('click',
     })
 
 
- //toggle english language
+ //toggle english language homepage
  document.getElementById('englisho').addEventListener('click',
 function(){
     var contentEnglish = document.querySelector(".contentEnglish");
@@ -18,7 +18,7 @@ function(){
     contentKiswahili.classList.toggle("show");
 });
 
-//toggle swahili language 
+//toggle swahili language  homepage
 document.getElementById('swahili').addEventListener('click',
 function(){
     var contentKiswahili = document.querySelector(".contentKiswahili");
@@ -30,6 +30,10 @@ function(){
     var contentEnglish = document.querySelector(".contentEnglish");
     contentEnglish.classList.toggle("hide");
 });
+
+
+
+
 //display features
 document.getElementById('btnSuper').addEventListener('click',
     function(){
