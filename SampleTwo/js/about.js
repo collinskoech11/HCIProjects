@@ -33,3 +33,10 @@ document.getElementById('Dmode').addEventListener('click',
         var con = document.querySelector('.modeCon');
         con.classList.toggle('dark');
     })
+
+//toggle light mode
+document.getElementById('Lmode').addEventListener('click',
+    function(){
+        var con = document.querySelector('.modeCon');
+        con.classList.remove('dark');
+    })
