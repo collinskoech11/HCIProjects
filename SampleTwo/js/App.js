@@ -10,11 +10,11 @@ function(){
     var contentKiswahili = document.querySelector(".contentKiswahili");
     contentKiswahili.classList.toggle("show");
 });
-//toggle French Language
+//toggle Swahili Language
 document.getElementById('Language').addEventListener('click',
 function(){
     var contentEnglish = document.querySelector(".contentEnglish");
-    contentEnglish.classList.toggle("hide");
+    contentEnglish.classList.toggle("show");
 });
 //display features
 document.getElementById('btnSuper').addEventListener('click',
