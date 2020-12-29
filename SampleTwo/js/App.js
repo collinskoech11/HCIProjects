@@ -4,14 +4,14 @@ document.getElementById("mode").addEventListener('click',
         container.classList.toggle('dark');
     })
 
-//toggle English language 
-document.getElementById('Language').addEventListener('click',
+//toggle swahili language 
+document.getElementById('swahili').addEventListener('click',
 function(){
     var contentKiswahili = document.querySelector(".contentKiswahili");
     contentKiswahili.classList.toggle("show");
 });
-//toggle Swahili Language
-document.getElementById('Language').addEventListener('click',
+//toggle engish Language
+document.getElementById('english').addEventListener('click',
 function(){
     var contentEnglish = document.querySelector(".contentEnglish");
     contentEnglish.classList.toggle("show");
