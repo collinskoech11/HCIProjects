@@ -4,11 +4,6 @@ document.getElementById("darkmode").addEventListener('click',
         container.classList.toggle('dark');
     })
 
-    document.getElementById("lightmode").addEventListener('click',
-    function(){
-        var container = document.querySelector(".container");
-        container.classList.toggle('original');
-    })
 
  //toggle english language
  document.getElementById('englisho').addEventListener('click',
