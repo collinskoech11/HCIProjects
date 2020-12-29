@@ -1,3 +1,4 @@
+// toggle KIswahili content
 document.getElementById('languageKo').addEventListener('click',
     function(){
         var eng = document.querySelector('.Englishcontent');
@@ -11,7 +12,7 @@ document.getElementById('languageKo').addEventListener('click',
     })
 
 
-
+// toggle english language
     document.getElementById('LanguageEo').addEventListener('click',
     function(){
         var eng = document.querySelector('.Kiswahilicontent');
