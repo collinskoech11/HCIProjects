@@ -4,13 +4,26 @@ document.getElementById("mode").addEventListener('click',
         container.classList.toggle('dark');
     })
 
+ //toggle english language
+ document.getElementById('englisho').addEventListener('click',
+function(){
+    var contentEnglish = document.querySelector(".contentEnglish");
+    contentEnglish.classList.toggle("hide");
+});
+
+ document.getElementById('englisho').addEventListener('click',
+function(){
+    var contentKiswahili = document.querySelector(".contentKiswahili");
+    contentKiswahili.classList.toggle("show");
+});
+
 //toggle swahili language 
 document.getElementById('swahili').addEventListener('click',
 function(){
     var contentKiswahili = document.querySelector(".contentKiswahili");
     contentKiswahili.classList.toggle("show");
 });
-//toggle engish Language
+
 document.getElementById('swahili').addEventListener('click',
 function(){
     var contentEnglish = document.querySelector(".contentEnglish");
