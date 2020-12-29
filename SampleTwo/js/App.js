@@ -31,31 +31,6 @@ function(){
     contentEnglish.classList.toggle("hide");
 });
 
-//toggle english language aboutpage
-document.getElementById('LanguageEo').addEventListener('click',
-function(){
-    var contentEnglish = document.querySelector(".Englishcontent");
-    contentEnglish.classList.toggle("hide");
-});
-
- document.getElementById('languageEo').addEventListener('click',
-function(){
-    var contentKiswahili = document.querySelector(".Kiswahilicontent");
-    contentKiswahili.classList.toggle("show");
-});
-
-//toggle swahili language  aboutpage
-document.getElementById('LanguageK').addEventListener('click',
-function(){
-    var contentKiswahili = document.querySelector(".Kiswahilicontent");
-    contentKiswahili.classList.toggle("show");
-});
-
-document.getElementById('languageK').addEventListener('click',
-function(){
-    var contentEnglish = document.querySelector(".Englishcontent");
-    contentEnglish.classList.toggle("hide");
-});
 
 
 //display features
