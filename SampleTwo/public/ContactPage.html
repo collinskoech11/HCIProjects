@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+   <style>
+      
+       ul, li{
+           list-style-type: none;
+           display: flex;
+           flex-direction: row;
+           padding: 10px;
+           cursor: pointer;
+       }
+       li a{
+      color: white;
+      border: 1px solid black;
+      background-color: #333333;
+      border-radius: 10px;
+      font-size: 20px;
+      padding: 10px;
+      text-decoration: none;
+       }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="EnglishContent">
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="ContactPage.html">Contact</a>
+        <a href="AboutPage.html">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Language 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#" id="Language">English</a>
+              <a href="#" id="Language">Kiswahili</a>
+    
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">change mode 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#"id="mode">dark mode</a>
+              <a href="#"id="mode">light mode</a>
+    
+            </div>
+          </div> 
+       
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <h1 style="text-align: center;">Contact Us</h1>
+
+    
+    <p>Contact us:<br/>
+        <ul>
+            <li> <a href="" target="_blank">+254 798 777814 </a></li>
+            <li><a href="" target="_blank">+254 728 000107 </a></li>
+            <li><a href="" target="_blank">+254 741 848472</a></li>
+        </ul>
+      
+
+    <p>Follow us on our github pages:<br/>
+        <ul>
+            <li> <a href="https://github.com/Diana-nyamai" target="_blank">Diana Nyamai</a></li>
+            <li><a href="https://github.com/collinskoech11" target="_blank">Collins Koech</a></li>
+            <li><a href="https://github.com/Bnanyingi" target="_blank">Barbara Nanyingi</a></li>
+        </ul>
+       </p>
+        <div
+        id="map-container"
+        className="rounded z-depth-1-half map-container"
+        style="height: 400px;"
+      >
+      <h1 style="text-align: center;">Location</h1>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6338605984747!2d36.73452031470259!3d-1.3961496361495398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f05cbfac861ff%3A0x680b30b9f4644fd1!2sMaasai%20Lodge%20Rongai!5e0!3m2!1sen!2ske!4v1605682258469!5m2!1sen!2ske"
+          title="This is a unique title"
+          width="100%"
+          height="100%"
+          frameBorder="0"
+          style="border: 0;"
+        />
+      </div>
+        </div>
+        
+    </div>
+    </div>
+    <script src="js/App.js"></script>
+</body>
+</html>
